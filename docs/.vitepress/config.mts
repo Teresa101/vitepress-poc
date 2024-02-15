@@ -8,7 +8,7 @@ export default defineConfig({
   title: "Onex Primerica Design System",
   description: "A Living Design System Documentation",
   head: [
-    ['link', { rel: 'shortcut icon', type: 'image/x-icon', href: '/vitepress-poc/public/favicon.ico?' }],
+    ['link', { rel: 'shortcut icon', type: 'image/x-icon', href: '/vitepress-poc/favicon.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css' }],
   ],
   themeConfig: {
