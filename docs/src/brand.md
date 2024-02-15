@@ -9,5 +9,5 @@ our continued commitment to mainstreet America, and the opportunities we provide
     
 Click the image below to download a PDF of the Primerica Branding Guidelines.
 
-<a href="/assets/images/primerica-branding-guidelines.pdf" target="_blank"><img src="/assets/images/primerica-branding-guidelines.png" width="50%" alt="Primerica Branding Guidelines" class="image-border" /></a>
+<a href="/vitepress-poc/assets/images/primerica-branding-guidelines.pdf" target="_blank"><img src="/assets/images/primerica-branding-guidelines.png" width="50%" alt="Primerica Branding Guidelines" class="image-border" /></a>
     
