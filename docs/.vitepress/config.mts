@@ -50,14 +50,6 @@ export default defineConfig({
           { text: 'Accordions', link: '/src/Components/accordions' },
         ]
       },
-      // {
-      //   text: 'EXAMPLES',
-      //   collapsed: true,
-      //   items: [
-      //     { text: 'Markdown Examples', link: '/src/markdown-examples' },
-      //     { text: 'Runtime API Examples', link: '/src/api-examples' }
-      //   ]
-      // }
     ],
     outline: {
       label: 'Table of Content',
