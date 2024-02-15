@@ -4,6 +4,7 @@ import vuetify from 'vite-plugin-vuetify'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vitepress-poc/',
   title: "Onex Primerica Design System",
   description: "A Living Design System Documentation",
   head: [
