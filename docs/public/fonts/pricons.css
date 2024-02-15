@@ -1,0 +1,743 @@
+/* make sure this line is in the file to apply special styling to shorter icons: */
+.PRIcons-feedback-help:before, .PRIcons-support-feedback:before {
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: 'PRIcons';
+  src:  url('PRIcons.eot?yxyvoe');
+  src:  url('PRIcons.eot?yxyvoe#iefix') format('embedded-opentype'),
+    url('PRIcons.ttf?yxyvoe') format('truetype'),
+    url('PRIcons.woff?yxyvoe') format('woff'),
+    url('PRIcons.svg?yxyvoe#PRIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="PRIcons-"], [class*="PRIcons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'PRIcons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.PRIcons-cal-edit:before {
+  content: "\e973";
+}
+.PRIcons-Okta:before {
+  content: "\e972";
+}
+.PRIcons-apps:before {
+  content: "\e971";
+}
+.PRIcons-Prospects_Icon:before {
+  content: "\e960";
+}
+.PRIcons-engage-90:before {
+  content: "\e928";
+}
+.PRIcons-on-demand:before {
+  content: "\e96e";
+}
+.PRIcons-securities-licensing:before {
+  content: "\e96f";
+}
+.PRIcons-excel:before {
+  content: "\e970";
+}
+.PRIcons-Signature:before {
+  content: "\e96d";
+}
+.PRIcons-schedule:before {
+  content: "\e96a";
+}
+.PRIcons-History:before {
+  content: "\e966";
+}
+.PRIcons-RegisterDownlines:before {
+  content: "\e968";
+}
+.PRIcons-SearchDownlines:before {
+  content: "\e96c";
+}
+.PRIcons-POL:before {
+  content: "\e964";
+}
+.PRIcons-senior-healthcare:before {
+  content: "\e962";
+}
+.PRIcons-LifeLicensingGuide:before {
+  content: "\e961";
+}
+.PRIcons-Sprinklr_Icon:before {
+  content: "\e95f";
+}
+.PRIcons-call-split:before {
+  content: "\e95b";
+}
+.PRIcons-local-library:before {
+  content: "\e95d";
+}
+.PRIcons-filter-list:before {
+  content: "\e959";
+}
+.PRIcons-megaphone:before {
+  content: "\e957";
+}
+.PRIcons-icon-globe:before {
+  content: "\e958";
+}
+.PRIcons-ftb-menu:before {
+  content: "\e956";
+}
+.PRIcons-promoIcon:before {
+  content: "\e955";
+}
+.PRIcons-graduation-cap:before {
+  content: "\e953";
+}
+.PRIcons-temp-license:before {
+  content: "\e954";
+}
+.PRIcons-email:before {
+  content: "\e952";
+}
+.PRIcons-ftb-collect:before {
+  content: "\e94e";
+}
+.PRIcons-ftb-licensing:before {
+  content: "\e950";
+}
+.PRIcons-Payment-Ctr:before {
+  content: "\e94c";
+}
+.PRIcons-coc:before {
+  content: "\e94a";
+}
+.PRIcons-feedback-help:before {
+  content: "\e902";
+}
+.PRIcons-support-feedback:before {
+  content: "\e946";
+}
+.PRIcons-fast-start-bonus:before {
+  content: "\e95a";
+}
+.PRIcons-license-path:before {
+  content: "\e95c";
+}
+.PRIcons-new-rep-reward:before {
+  content: "\e95e";
+}
+.PRIcons-pfn:before {
+  content: "\e96b";
+}
+.PRIcons-circle-full:before {
+  content: "\e963";
+}
+.PRIcons-delete-content-for-rep:before {
+  content: "\e965";
+}
+.PRIcons-life-license:before {
+  content: "\e967";
+}
+.PRIcons-my-contacts:before {
+  content: "\e969";
+}
+.PRIcons-pass-now:before {
+  content: "\e901";
+}
+.PRIcons-calendar1:before {
+  content: "\e904";
+}
+.PRIcons-add-licensing-contact:before {
+  content: "\e949";
+}
+.PRIcons-my-activity:before {
+  content: "\e94b";
+}
+.PRIcons-pass-now1:before {
+  content: "\e94d";
+}
+.PRIcons-recruit-tracker:before {
+  content: "\e94f";
+}
+.PRIcons-training:before {
+  content: "\e951";
+}
+.PRIcons-delete-favorite:before {
+  content: "\e945";
+}
+.PRIcons-upload-video-messages:before {
+  content: "\e947";
+}
+.PRIcons-support-contacts:before {
+  content: "\e948";
+}
+.PRIcons-switch-user:before {
+  content: "\e906";
+}
+.PRIcons-view-orientation:before {
+  content: "\e905";
+}
+.PRIcons-add-favorites:before {
+  content: "\e900";
+}
+.PRIcons-add-content:before {
+  content: "\e903";
+}
+.PRIcons-ez-key-new:before {
+  content: "\e938";
+}
+.PRIcons-iba:before {
+  content: "\e937";
+}
+.PRIcons-ez-key:before {
+  content: "\e936";
+}
+.PRIcons-90day-tracker-logo:before {
+  content: "\e935";
+}
+.PRIcons-hide:before {
+  content: "\e933";
+}
+.PRIcons-show:before {
+  content: "\e934";
+}
+.PRIcons-select-one:before {
+  content: "\e930";
+}
+.PRIcons-e-roster:before {
+  content: "\e931";
+}
+.PRIcons-class-code:before {
+  content: "\e932";
+}
+.PRIcons-personal-standing:before {
+  content: "\e92f";
+}
+.PRIcons-id-theft-deterrent:before {
+  content: "\e92e";
+}
+.PRIcons-light-bulb:before {
+  content: "\e92d";
+}
+.PRIcons-air-calculator:before {
+  content: "\e939";
+}
+.PRIcons-trend-report:before {
+  content: "\e93a";
+}
+.PRIcons-email-uplines:before {
+  content: "\e93b";
+}
+.PRIcons-documents:before {
+  content: "\e93c";
+}
+.PRIcons-grab-n-move:before {
+  content: "\e93d";
+}
+.PRIcons-passcode:before {
+  content: "\e93e";
+}
+.PRIcons-share-delegate:before {
+  content: "\e93f";
+}
+.PRIcons-text-talkbubble:before {
+  content: "\e940";
+}
+.PRIcons-down:before {
+  content: "\e941";
+}
+.PRIcons-save-disk:before {
+  content: "\e942";
+}
+.PRIcons-up-down:before {
+  content: "\e943";
+}
+.PRIcons-up:before {
+  content: "\e944";
+}
+.primerica-blue-knot:before {
+  content: "\e90b";
+}
+.primerica-red-knot-01:before {
+  content: "\e90a";
+}
+.primerica-white-knot-01:before {
+  content: "\e909";
+}
+.primerica-knot-01:before {
+  content: "\e908";
+}
+.Primerica-registered:before {
+  content: "\e907";
+}
+.PRIcons-glove-empty:before {
+  content: "\e90c";
+}
+.PRIcons-glove-full:before {
+  content: "\e91e";
+}
+.PRIcons-license-back:before {
+  content: "\e920";
+}
+.PRIcons-license:before {
+  content: "\e91f";
+}
+.PRIcons-az-za-sort:before {
+  content: "\e90d";
+}
+.PRIcons-filter-sort:before {
+  content: "\e90e";
+}
+.PRIcons-success-tracker-home:before {
+  content: "\e90f";
+}
+.PRIcons-bookmark:before {
+  content: "\e910";
+}
+.PRIcons-marker:before {
+  content: "\e911";
+}
+.PRIcons-checkbox-square:before {
+  content: "\e912";
+}
+.PRIcons-checkbox-square-empty:before {
+  content: "\e913";
+}
+.PRIcons-compliance:before {
+  content: "\e914";
+}
+.PRIcons-flag:before {
+  content: "\e915";
+}
+.PRIcons-reports:before {
+  content: "\e916";
+}
+.PRIcons-delete-trashcan:before {
+  content: "\e917";
+}
+.PRIcons-exam-pass:before {
+  content: "\e918";
+}
+.PRIcons-fingerprint:before {
+  content: "\e919";
+}
+.PRIcons-id:before {
+  content: "\e91a";
+}
+.PRIcons-info:before {
+  content: "\e91b";
+}
+.PRIcons-share:before {
+  content: "\e91c";
+}
+.PRIcons-study:before {
+  content: "\e91d";
+}
+.PRIcons-upload:before {
+  content: "\e921";
+}
+.PRIcons-recruits:before {
+  content: "\e922";
+}
+.PRIcons-download-contact:before {
+  content: "\e923";
+}
+.PRIcons-turbo-app:before {
+  content: "\e924";
+}
+.PRIcons-transaction-details:before {
+  content: "\e925";
+}
+.PRIcons-reset-app:before {
+  content: "\e926";
+}
+.PRIcons-find-team:before {
+  content: "\e927";
+}
+.PRIcons-contact-support:before {
+  content: "\e929";
+}
+.PRIcons-challenge-score:before {
+  content: "\e92a";
+}
+.PRIcons-unlink:before {
+  content: "\e92b";
+}
+.PRIcons-link:before {
+  content: "\e92c";
+}
+.PRIcons-auto:before {
+  content: "\e60d";
+}
+.PRIcons-box:before {
+  content: "\e616";
+}
+.PRIcons-cake:before {
+  content: "\e618";
+}
+.PRIcons-check:before {
+  content: "\e62f";
+}
+.PRIcons-check-sign:before {
+  content: "\f05a";
+}
+.PRIcons-document:before {
+  content: "\e631";
+}
+.PRIcons-document-pdf:before {
+  content: "\e632";
+}
+.PRIcons-health:before {
+  content: "\e63a";
+}
+.PRIcons-health-alt:before {
+  content: "\e807";
+}
+.PRIcons-legal:before {
+  content: "\e63d";
+}
+.PRIcons-legal-alt:before {
+  content: "\e63e";
+}
+.PRIcons-merge:before {
+  content: "\e80a";
+}
+.PRIcons-newspaper:before {
+  content: "\e63f";
+}
+.PRIcons-piggy-bank:before {
+  content: "\e225";
+}
+.PRIcons-post-it:before {
+  content: "\e645";
+}
+.PRIcons-post-it-alt:before {
+  content: "\e600";
+}
+.PRIcons-spark:before {
+  content: "\e601";
+}
+.PRIcons-split:before {
+  content: "\e811";
+}
+.PRIcons-sync-no:before {
+  content: "\e602";
+}
+.PRIcons-table:before {
+  content: "\e603";
+}
+.PRIcons-time:before {
+  content: "\e604";
+}
+.PRIcons-adjust:before {
+  content: "\e815";
+}
+.PRIcons-film:before {
+  content: "\e009";
+}
+.PRIcons-audio-file:before {
+  content: "\e607";
+}
+.PRIcons-camera-video:before {
+  content: "\e059";
+}
+.PRIcons-connectivity-problem:before {
+  content: "\e612";
+}
+.PRIcons-gallery:before {
+  content: "\e609";
+}
+.PRIcons-maple-leaf:before {
+  content: "\e614";
+}
+.PRIcons-microphone:before {
+  content: "\e608";
+}
+.PRIcons-paperclip:before {
+  content: "\e142";
+}
+.PRIcons-picture:before {
+  content: "\e60a";
+}
+.PRIcons-refresh:before {
+  content: "\e60b";
+}
+.PRIcons-sync:before {
+  content: "\e623";
+}
+.PRIcons-sync-problem:before {
+  content: "\e624";
+}
+.PRIcons-trophy:before {
+  content: "\e615";
+}
+.PRIcons-arrow-down:before {
+  content: "\e094";
+}
+.PRIcons-arrow-left:before {
+  content: "\e091";
+}
+.PRIcons-arrow-right:before {
+  content: "\e092";
+}
+.PRIcons-arrow-up:before {
+  content: "\e093";
+}
+.PRIcons-ban-circle:before {
+  content: "\e090";
+}
+.PRIcons-bell:before {
+  content: "\e123";
+}
+.PRIcons-calculator:before {
+  content: "\e605";
+}
+.PRIcons-calculator-dream:before {
+  content: "\e606";
+}
+.PRIcons-calculator-loan:before {
+  content: "\e634";
+}
+.PRIcons-calculator-savings:before {
+  content: "\e635";
+}
+.PRIcons-calendar:before {
+  content: "\e109";
+}
+.PRIcons-calendar-add:before {
+  content: "\e110";
+}
+.PRIcons-calendar-sync:before {
+  content: "\e111";
+}
+.PRIcons-camera:before {
+  content: "\e046";
+}
+.PRIcons-chevron-down:before {
+  content: "\e114";
+}
+.PRIcons-chevron-left:before {
+  content: "\e079";
+}
+.PRIcons-chevron-right:before {
+  content: "\e080";
+}
+.PRIcons-chevron-up:before {
+  content: "\e113";
+}
+.PRIcons-circle-empty:before {
+  content: "\e60c";
+}
+.PRIcons-cog:before {
+  content: "\f013";
+}
+.PRIcons-columns:before {
+  content: "\e610";
+}
+.PRIcons-comment:before {
+  content: "\f075";
+}
+.PRIcons-contact:before {
+  content: "\e60f";
+}
+.PRIcons-contact-manager:before {
+  content: "\e60e";
+}
+.PRIcons-dashboard:before {
+  content: "\e613";
+}
+.PRIcons-decrease:before {
+  content: "\e640";
+}
+.PRIcons-decrease-condensed:before {
+  content: "\e641";
+}
+.PRIcons-downline-sign:before {
+  content: "\e617";
+}
+.PRIcons-earphone:before {
+  content: "\e611";
+}
+.PRIcons-earphone-empty:before {
+  content: "\f095";
+}
+.PRIcons-envelope:before {
+  content: "\e61a";
+}
+.PRIcons-erase:before {
+  content: "\e61b";
+}
+.PRIcons-exclamation-sign:before {
+  content: "\f06a";
+}
+.PRIcons-filter:before {
+  content: "\f0b0";
+}
+.PRIcons-fna:before {
+  content: "\e61e";
+}
+.PRIcons-grip:before {
+  content: "\e619";
+}
+.PRIcons-group:before {
+  content: "\e621";
+}
+.PRIcons-home:before {
+  content: "\f015";
+}
+.PRIcons-increase:before {
+  content: "\e646";
+}
+.PRIcons-increase-condensed:before {
+  content: "\e647";
+}
+.PRIcons-info-sign:before {
+  content: "\f129";
+}
+.PRIcons-investments:before {
+  content: "\e61c";
+}
+.PRIcons-life-family:before {
+  content: "\e61d";
+}
+.PRIcons-lock:before {
+  content: "\e033";
+}
+.PRIcons-logo-mark:before {
+  content: "\e626";
+}
+.PRIcons-log-out:before {
+  content: "\f08b";
+}
+.PRIcons-map-marker:before {
+  content: "\f041";
+}
+.PRIcons-menu-navigation:before {
+  content: "\e629";
+}
+.PRIcons-menu-utilities:before {
+  content: "\e622";
+}
+.PRIcons-menu-utilities-alt:before {
+  content: "\e235";
+}
+.PRIcons-minus-sign:before {
+  content: "\f068";
+}
+.PRIcons-navigate:before {
+  content: "\e62c";
+}
+.PRIcons-new:before {
+  content: "\e62d";
+}
+.PRIcons-ok:before {
+  content: "\f00c";
+}
+.PRIcons-ok-sign:before {
+  content: "\f058";
+}
+.PRIcons-pencil:before {
+  content: "\270f";
+}
+.PRIcons-placeholder:before {
+  content: "\e644";
+}
+.PRIcons-play-sign:before {
+  content: "\f144";
+}
+.PRIcons-play-sign-alt:before {
+  content: "\e627";
+}
+.PRIcons-plus-sign:before {
+  content: "\f067";
+}
+.PRIcons-pol:before {
+  content: "\e633";
+}
+.PRIcons-print:before {
+  content: "\f02f";
+}
+.PRIcons-question-sign:before {
+  content: "\f059";
+}
+.PRIcons-quick-quote:before {
+  content: "\e636";
+}
+.PRIcons-remove:before {
+  content: "\e637";
+}
+.PRIcons-close:before {
+  content: "\e643";
+}
+.PRIcons-remove-sign:before {
+  content: "\e62e";
+}
+.PRIcons-reply:before {
+  content: "\e651";
+}
+.PRIcons-search:before {
+  content: "\f002";
+}
+.PRIcons-search-sign:before {
+  content: "\e630";
+}
+.PRIcons-send:before {
+  content: "\e171";
+}
+.PRIcons-size:before {
+  content: "\e63b";
+}
+.PRIcons-sort-by-attributes:before {
+  content: "\f0de";
+}
+.PRIcons-sort-by-attributes-alt:before {
+  content: "\f0dd";
+}
+.PRIcons-star:before {
+  content: "\e006";
+}
+.PRIcons-star-empty:before {
+  content: "\e007";
+}
+.PRIcons-th:before {
+  content: "\e011";
+}
+.PRIcons-th-large:before {
+  content: "\e010";
+}
+.PRIcons-th-list:before {
+  content: "\e012";
+}
+.PRIcons-thumbs-up:before {
+  content: "\e125";
+}
+.PRIcons-tools:before {
+  content: "\e638";
+}
+.PRIcons-training1:before {
+  content: "\e642";
+}
+.PRIcons-usd:before {
+  content: "\e148";
+}
+.PRIcons-user:before {
+  content: "\f007";
+}
+.PRIcons-user-sign:before {
+  content: "\e63c";
+}
+.PRIcons-warning-sign:before {
+  content: "\f071";
+}
