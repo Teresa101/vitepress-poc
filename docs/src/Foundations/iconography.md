@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" media="all" href="/fonts/pricons.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/vitepress-poc/fonts/pricons.css" />
 
 # Iconography
 
@@ -971,7 +971,7 @@ PRIcons are icons designed specifically for Primerica products. The use of PRIco
 
 ### Source Files
 
-<p>You may <strong><a href="/fonts/PRIcons-v2.4-30.zip" target="_blank">download the source files</a></strong> for use in your non-HTML projects.  Unzip this file an install the fonts located in the fonts folder onto your computer.</p>
+<p>You may <strong><a href="/vitepress-poc/fonts/PRIcons-v2.4-30.zip" target="_blank">download the source files</a></strong> for use in your non-HTML projects.  Unzip this file an install the fonts located in the fonts folder onto your computer.</p>
 
 ### Using the PRIcons on your local machine
 
