@@ -1,88 +1,55 @@
 {
-  "hash": "d4cde50a",
+  "hash": "30e689a5",
   "configHash": "5915b2c9",
-  "lockfileHash": "14ef13fb",
-  "browserHash": "6dc051bf",
+  "lockfileHash": "9eb3dfa1",
+  "browserHash": "65a40d31",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "953f1f90",
+      "fileHash": "c64455af",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "93bfb727",
+      "fileHash": "7128d766",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "09618cbc",
+      "fileHash": "a7e63d5c",
       "needsInterop": false
     },
     "vuetify": {
       "src": "../../../../node_modules/vuetify/lib/framework.mjs",
       "file": "vuetify.js",
-      "fileHash": "d62b4830",
+      "fileHash": "7e8e81e3",
       "needsInterop": false
     },
     "vuetify/components": {
       "src": "../../../../node_modules/vuetify/lib/components/index.mjs",
       "file": "vuetify_components.js",
-      "fileHash": "c708085e",
+      "fileHash": "2ac125b5",
       "needsInterop": false
     },
     "vuetify/directives": {
       "src": "../../../../node_modules/vuetify/lib/directives/index.mjs",
       "file": "vuetify_directives.js",
-      "fileHash": "1da7053e",
-      "needsInterop": false
-    },
-    "vuetify/lib/components/VExpansionPanel/index.mjs": {
-      "src": "../../../../node_modules/vuetify/lib/components/VExpansionPanel/index.mjs",
-      "file": "vuetify_lib_components_VExpansionPanel_index__mjs.js",
-      "fileHash": "caa7f7a9",
-      "needsInterop": false
-    },
-    "vuetify/lib/components/VGrid/index.mjs": {
-      "src": "../../../../node_modules/vuetify/lib/components/VGrid/index.mjs",
-      "file": "vuetify_lib_components_VGrid_index__mjs.js",
-      "fileHash": "41f602d3",
+      "fileHash": "5d85f2c0",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-AGULXWSZ": {
-      "file": "chunk-AGULXWSZ.js"
+    "chunk-726WAD56": {
+      "file": "chunk-726WAD56.js"
     },
-    "chunk-OFW3ZGM2": {
-      "file": "chunk-OFW3ZGM2.js"
+    "chunk-AQAY4TU7": {
+      "file": "chunk-AQAY4TU7.js"
     },
-    "chunk-ALAKZCTC": {
-      "file": "chunk-ALAKZCTC.js"
-    },
-    "chunk-HORN4G4A": {
-      "file": "chunk-HORN4G4A.js"
-    },
-    "chunk-O3OPWDMA": {
-      "file": "chunk-O3OPWDMA.js"
-    },
-    "chunk-ZZEVJYD3": {
-      "file": "chunk-ZZEVJYD3.js"
-    },
-    "chunk-2I7SB26Y": {
-      "file": "chunk-2I7SB26Y.js"
-    },
-    "chunk-VO2NFNT7": {
-      "file": "chunk-VO2NFNT7.js"
-    },
-    "chunk-L5ZMYBJA": {
-      "file": "chunk-L5ZMYBJA.js"
-    },
-    "chunk-JVI54IWZ": {
-      "file": "chunk-JVI54IWZ.js"
+    "chunk-RIYBSJ6F": {
+      "file": "chunk-RIYBSJ6F.js"
     },
     "chunk-3YS4HNIT": {
       "file": "chunk-3YS4HNIT.js"

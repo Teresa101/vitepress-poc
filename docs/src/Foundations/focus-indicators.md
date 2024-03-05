@@ -50,14 +50,14 @@ Text links' focus color will be the current link color for the outline.
 
 Input fields will use active state styles as their focus indicator. This includes color, shape and animation styles that are applied when entering information into this field.
 
-<img src="/assets/images/ADA_Focus_09_TextInputField.png" width="350" alt="Focused text input field" />
+<img src="/assets/images/ADA_Focus_09_TextInputField.png" width="350" alt="Focused text input field" class="image-white-bg" />
 
 ## Radios, Checkboxes and Toggles
 
 Radio inputs, checkboxes and toggles will use active state styles as their focus indicator. This includes color, shape and animation styles that are applied when hovering this element.
 
-<img src="/assets/images/gif1.png" width="350" alt="Focused radio" />
+<img src="/assets/images/gif1.png" width="350" alt="Focused radio" class="image-white-bg" />
 
-<img src="/assets/images/gif2.png" width="350" alt="Focused checkbox" />
+<img src="/assets/images/gif2.png" width="350" alt="Focused checkbox" class="image-white-bg" />
 
-<img src="/assets/images/gif3.png" width="300" alt="Focused toggle" />
+<img src="/assets/images/gif3.png" width="350" alt="Focused toggle" class="image-white-bg" />

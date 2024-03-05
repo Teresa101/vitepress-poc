@@ -1,5 +1,5 @@
 <script setup>
-  import AccordionExample from './OnexAccordion.example.vue'
+  import AccordionExample from './vue-pages/OnexAccordion.example.vue'
 </script>
 
 # Accordions
@@ -54,7 +54,7 @@ This is just an example of code preview block for evaluation
 
 Example of code preview pulled in directly from file:
 
-<<< ../Components/OnexAccordion.example.vue
+<<< ../Components/vue-pages/OnexAccordion.example.vue
 
 ## Accordion States
 

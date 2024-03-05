@@ -1,3 +1,45 @@
+<style>
+  #skinTones.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+    margin: 16px 0 20px;
+    width: 100%;
+  }
+  #skinTones.grid-container .grid-item {
+    background-color: white;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+    padding: 0;
+  }
+  #skinTones.grid-container .color-chip {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  #skinTones.grid-container .color-desc STRONG,
+  #skinTones.grid-container .color-desc P {
+    color: #333;
+    display: block;
+    text-align: center;
+  }
+  .beige {
+    background-color: #f7d3a6;
+  }
+  .porcelain {
+    background-color: #FDB797;
+  }
+  .almond {
+    background-color: #BC7758;
+  }
+  .espresso {
+    background-color: #7E3C06;
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 1600px) {
+    #skinTones.grid-container {
+      grid-template-columns: auto auto auto auto;
+    }	
+  }
+</style>
 
 # Illustration
 

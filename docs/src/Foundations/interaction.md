@@ -1,3 +1,39 @@
+<style>
+  #interactionStates.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+    margin: 0 0 20px;
+    width: 100%;
+  }
+  #interactionStates.grid-container .grid-item {
+    padding: 0;
+    width: 400px;
+  }
+
+  /* ----------- 550px - 1495px ----------- */
+  @media screen and (min-width: 551px) and (max-width: 1495px) {
+    #interactionStates.grid-container {
+      grid-template-columns: auto;
+    }
+    #interactionStates.grid-container .grid-item {
+      width: 100%;
+    }
+  }
+  /* ----------- 1495px - 1600px ----------- */
+  @media screen and (min-width: 1496px) and (max-width: 1600px) {
+    #interactionStates.grid-container {
+      grid-template-columns: auto auto;
+    }
+  }
+  /* ----------- 1600px + ----------- */
+  @media screen and (min-width: 1601px) {
+    #interactionStates.grid-container {
+      grid-template-columns: auto auto;
+    }
+  }
+</style>
+
 
 # Interaction
 

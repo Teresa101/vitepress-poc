@@ -1,3 +1,61 @@
+<style>
+  TABLE#layoutViewport TR > TD:first-of-type {
+    background-color: initial;
+  }
+  TABLE#layoutViewport TR:nth-of-type(2n) {
+    background-color: var(--v-blueGrey100-base);
+  }
+  TABLE#layoutViewport TR > TD,
+  TABLE#layoutViewport TFOOT {
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  TABLE#layoutViewport TFOOT {
+    background-color: var(--v-white-base);
+  }
+  TABLE#layoutViewport TR TH,
+  TABLE#layoutViewport TFOOT TD {
+    font-size: 14px;
+  }
+  TABLE#layoutViewport TD .mdi {
+    font-size: 24px;
+  }
+
+  /* ----------- 0 - 550px ----------- */
+  @media screen and (max-width: 550px) {
+    TABLE#layoutViewport {
+      display: table;
+    }
+    TABLE#layoutViewport TBODY {
+      display: table-row-group
+    }
+    TABLE#layoutViewport TR {
+      display: table-row;
+    }
+    TABLE#layoutViewport TD {
+      display: table-cell;
+      border: 1px solid var(--vp-c-divider);
+    }
+  }
+  /* ----------- 550px - 1495px ----------- */
+  @media screen and (min-width: 551px) and (max-width: 1495px) {
+    TABLE#layoutViewport {
+      display: table;
+    }
+    TABLE#layoutViewport TBODY {
+      display: table-row-group
+    }
+    TABLE#layoutViewport TR {
+      display: table-row;
+    }
+    TABLE#layoutViewport TD {
+      display: table-cell;
+      border: 1px solid var(--vp-c-divider);
+    }
+  }
+</style>
+
 
 # Layout
 

@@ -1,3 +1,9 @@
+<style>
+  .vp-doc TABLE#elevations TR TH {
+    text-align: left;
+  }
+</style>
+
 
 # Shadows
 

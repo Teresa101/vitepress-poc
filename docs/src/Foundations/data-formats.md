@@ -1,3 +1,53 @@
+<style>
+  .vp-doc TABLE.data-table TR > TD:first-of-type, 
+  .vp-doc TABLE TR TH {
+    background-color: var(--v-blue200-base);
+    font-weight: 600;
+  }
+  .vp-doc TABLE TR:nth-child(2n) {
+    background-color: var(--v-blueGrey100-base);
+  }
+  .dark .vp-doc TABLE.data-table TR > TD:first-of-type, 
+  .dark .vp-doc TABLE TR TH {
+    background-color: var(--v-black-base);
+  }
+  .dark .vp-doc TABLE TR:nth-child(2n),
+  .dark .vp-doc TABLE.data-table TR:nth-child(2n),
+  .dark .vp-doc TABLE#layoutViewport TR:nth-child(2n) {
+    background-color: var(--v-grey900-base);
+  }
+
+  /* ----------- 0 - 550px ----------- */
+  @media screen and (max-width: 550px) {
+    .vp-doc TABLE.data-table TR > TD:first-of-type {
+      background-color: var(--v-blue200-base);
+    }
+  }
+
+  /* ----------- 550px - 1024px ----------- */
+  @media screen and (max-width: 1024px) {
+    .vp-doc TABLE.data-table,
+    .vp-doc TABLE.data-table TBODY,
+    .vp-doc TABLE.data-table TR {
+      display: block;
+    }
+    .vp-doc TABLE.data-table TR {
+      border-top: 0;
+      height: auto;
+    }
+    .vp-doc TABLE.data-table {
+      border: 1px solid var(--vp-c-divider);
+    }
+    .vp-doc TABLE.data-table TR:nth-of-type(2n) {
+      background-color: white;
+    }
+    .vp-doc TABLE.data-table TD {
+      display: flex;
+      border: none;
+      border-bottom: thin solid var(--vp-c-divider);
+    }
+  }
+</style>
 
 # Data Formats
 

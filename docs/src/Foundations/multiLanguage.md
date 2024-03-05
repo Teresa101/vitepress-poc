@@ -1,3 +1,31 @@
+<style>
+  .inline-list {
+    display: inline-block;
+    margin: 0;
+    width: 45%;
+  }
+  .inline-list:first-of-type {
+    margin-right: 20px;
+  }
+  .toggles.inline-list {
+    width: 33%;
+  }
+  .toggles.inline-list:first-of-type {
+    margin-right: 0;
+  }
+
+  /* ----------- 0 - 847px ----------- */
+  @media screen and (max-width: 847px) {
+    .inline-list {
+      display: block;
+      width: 100%;
+    }
+    .inline-list:first-of-type {
+      margin-right: 0;
+    }
+  }
+</style>
+
 
 # Multi-Language Support
 
@@ -27,15 +55,15 @@ The standard button may begin to look crowded with 20 characters. When designing
 
 **English (US)** 8 characters
 
-<p class="image-grid"><img src="/assets/images/ButtonHelpEng.png" class="img-spacing" width="240" alt="Get Help button"/> <img src="/assets/images/ButtonEmailEng.png" width="240" alt="Email Us button"/></p>
+<p class="image-grid"><img src="/assets/images/ButtonHelpEng.png" class="image-white-bg img-spacing" width="240" alt="Get Help button"/> <img src="/assets/images/ButtonEmailEng.png" width="240" alt="Email Us button"/></p>
 
 **Español (US)** 14-18 characters
 
-<p class="image-grid"><img src="/assets/images/ButtonHelpEsp.png" class="img-spacing" width="240" alt="Get Help button in Spanish"/> <img src="/assets/images/ButtonEmailEsp.png" width="240" alt="Email Us button in Spanish"/></p>
+<p class="image-grid"><img src="/assets/images/ButtonHelpEsp.png" class="image-white-bg img-spacing" width="240" alt="Get Help button in Spanish"/> <img src="/assets/images/ButtonEmailEsp.png" width="240" alt="Email Us button in Spanish"/></p>
 
 **Français (CAN)** 17-21 characters
 
-<p class="image-grid"><img src="/assets/images/ButtonHelpFra.png" class="img-spacing" width="240" alt="Get Help button in French"/> <img src="/assets/images/ButtonEmailFra.png" width="240" alt="Email Us button in French"/></p>
+<p class="image-grid"><img src="/assets/images/ButtonHelpFra.png" class="image-white-bg img-spacing" width="240" alt="Get Help button in French"/> <img src="/assets/images/ButtonEmailFra.png" width="240" alt="Email Us button in French"/></p>
 
 ### Headers
 
@@ -106,13 +134,13 @@ Sometimes we use a toggle with an On/Off selection. It may be impossible to fit 
 
 <div class="toggles inline-list">
   <p><strong>English</strong></p>
-  <p><img src="/assets/images/ToggleEng.png" alt="Sample of Toggle in English language"/></p>
+  <p><img src="/assets/images/ToggleEng.png" alt="Sample of Toggle in English language" class="image-white-bg" /></p>
 </div>
 <div class="toggles inline-list">
   <p><strong>Français</strong></p>
-  <p><img src="/assets/images/ToggleFra.png" alt="Sample of Toggle in French language"/></p>
+  <p><img src="/assets/images/ToggleFra.png" alt="Sample of Toggle in French language" class="image-white-bg" /></p>
 </div>
 <div class="toggles inline-list">
   <p><strong>Español</strong></p>
-  <p><img src="/assets/images/ToggleEsp.png" alt="Sample of Toggle in Spanish language"/></p>
+  <p><img src="/assets/images/ToggleEsp.png" alt="Sample of Toggle in Spanish language" class="image-white-bg" /></p>
 </div>

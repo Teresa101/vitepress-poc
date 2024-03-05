@@ -1,5 +1,38 @@
 <link rel="stylesheet" type="text/css" media="all" href="/vitepress-poc/fonts/pricons.css" />
 
+<style>
+  #pricons.grid-container {
+    background-color: white;
+    border: thin solid var(--v-grey200-base);
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0;
+    margin: 0 0 20px;
+    width: 100%;
+  }
+  #pricons.grid-container .grid-item {
+    margin: 16px 0;
+    padding: 0;
+    text-align: center;
+    width: 190px;
+  }
+  #pricons.grid-container .grid-item  DIV.pricons-desc {
+    font-size: 14px;
+  }
+  [class^="PRIcons-"], [class*="PRIcons-"] {
+    font-size: 32px;
+  }
+  .dark #pricons.grid-container {
+    background-color: transparent;
+    border: thin solid var(--v-grey800-base);
+  }
+  @media screen and (min-width: 551px) and (max-width: 1155px) {
+    #pricons.grid-container {
+      grid-template-columns: auto auto;
+    }
+  }
+</style>
+
 # Iconography
 
 ## Meaning and Message

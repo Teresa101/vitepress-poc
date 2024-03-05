@@ -1,3 +1,147 @@
+<style>
+  .typography-specs {
+    border: 1px solid var(--vp-c-divider);
+    display: inline-block;
+    margin-bottom: 24px;
+    padding: 0 20px 30px;
+    width: 100%;
+  }
+  .typography-specs .inline-layout {
+    display: inline-block;
+  }
+  .typography-specs P:first-of-type {
+    margin-bottom: 0;
+  }
+  .typography-specs P.inline-layout {
+    max-width: fit-content;
+  }
+  .typography-specs P.inline-layout .large-text {
+    font-size: 78px;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .typography-specs UL.inline-layout {
+    list-style: none;
+  }
+  .typography-specs UL.inline-layout LI {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .typography-specs UL.inline-layout LI.normal-text {
+    font-weight: 400;
+  }
+  .typography-specs UL.inline-layout LI.semibold-text,
+  .sbdocs.sbdocs-wrapper .typography-specs .button {
+    font-weight: 600;
+  }
+  .typography-specs UL.inline-layout LI.bold-text {
+    font-weight: 700;
+  }
+  .typography-specs .heading {
+    font-weight: 600;
+    margin-top: 0;
+    padding: 0;
+  }
+  .typography-specs .hero-heading-one {
+    font-size: 64px;
+    line-height: 82px;
+    margin: 0;
+    margin-left: -5px;
+  }
+  .typography-specs .hero-heading-two {
+    font-size: 36px;
+    line-height: 48px;
+    margin-left: -3px;
+  }
+  .typography-specs .heading-one {
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: -1px;
+  }
+  .typography-specs .heading-two {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: -1px;
+  }
+  .typography-specs .heading-three {
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: -1px;
+  }
+  .typography-specs .heading-four,
+  .typography-specs .body-large,
+  .typography-specs .button {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: -1px;
+  }
+  .typography-specs .heading-five,
+  .typography-specs .body.body-medium,
+  .typography-specs .body-medium A {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: -1px;
+  }
+  .typography-specs .heading-six,
+  .typography-specs .body.body-small,
+  .typography-specs .body-small A {
+    font-size: 12px;
+    line-height: 21px;
+    margin-left: -1px;
+  }
+  .typography-specs .body {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+  .typography-specs .body A {
+    text-decoration: underline;
+  }
+  .typography-specs .body.body-medium:first-of-type,
+  .typography-specs .body.body-small:first-of-type,
+  .typography-specs .button {
+    margin-top: 16px;
+  }
+  .typography-specs .body.body-medium,
+  .typography-specs .body-medium A,
+  .typography-specs .body.body-small,
+  .typography-specs .body-small A {
+    margin-left: 0;
+  }
+  .typography-specs .body A.default-link,
+  .typography-specs .button-normal {
+    border-right: thin solid var(--v-grey400-base);
+    color: var(--v-blue600-base);
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  .typography-specs .body A.hover-link,
+  .typography-specs .button-hover {
+    color: var(--v-blue700-base);
+  }
+  .typography-specs .text-format-rules {
+    background-color: var(--vp-code-bg);
+    font-size: 14px;
+    margin-top: 0;
+    padding: 3px 7px 5px;
+  }
+  .heading-samples {
+    border: 1px solid var(--vp-c-divider);
+    margin: 30px 0;
+    padding: 7px 14px;
+  }
+  .heading-samples H2,
+  .heading-samples H3 {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .vp-doc .heading-samples :not(pre, h1, h2, h3, h4, h5, h6) > code {
+    color: var(--vp-c-text-1);
+    margin-right: 7px;
+  }
+</style>
+
 
 # Typography
 
